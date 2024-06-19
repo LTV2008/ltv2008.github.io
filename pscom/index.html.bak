@@ -4,7 +4,7 @@
     <meta charset="windows-1252">
     <title>PlayStation Express</title>
   </head>
-  <body style="  color: black; background-color: #ddccbb;" vlink="#000000" link="#000000">
+  <body style="   color: black; background-color: #ddccbb;" vlink="#000000" link="#000000">
     <h2> &nbsp;<font size="-5"></font><font color="#000077"><i>PlayStation
           Express</i></font> </h2>
     <h3>
@@ -16,7 +16,10 @@
         href="http://www.youtube.com/feed/subscriptions?disable_polymer=1"></a></h3>
     <h2><a href="http://www.playstation.com/"><img src="./img/playstation.gif" alt="(Playstation homepage)"
 
-          style="width: 155px; height: 45px;" align="absbottom" border="0"></a> <a href="http://www.frogfind.com/"><img src="./img/ff.gif" alt="(FrogFind)"
+          style="width: 155px; height: 45px;" align="absbottom" border="0"></a>
+      <a href="http://www.frogfind.com/"><img src="./img/ff.gif" alt="(FrogFind)"
+
+          style="width: 155px; height: 45px;" align="absbottom" border="0"></a> <a href="http://www.68k.news/"><img src="./img/68k.gif" alt="(FrogFind)"
 
           style="width: 155px; height: 45px;" align="absbottom" border="0"></a></h2>
     <h2><a href="http://www.frogfind.com/"></a></h2>
