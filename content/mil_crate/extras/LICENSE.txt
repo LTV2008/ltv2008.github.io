@@ -1,0 +1,8 @@
+License for these files:
+
+You may freely use and remix this model
+for any purpose, even for commercial use.
+Proper attribution must be given to LTV2008:
+(https://scratch.mit.edu/users/LTV2008/)
+When distributing copies of this model, please link back
+to the original repository.
