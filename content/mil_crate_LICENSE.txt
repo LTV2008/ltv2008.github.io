@@ -1,0 +1,8 @@
+License for mil_crate.glb:
+
+You may freely use and remix this model
+for any purpose, even for commerical use.
+Proper attribution must be given to LTV2008:
+(https://scratch.mit.edu/users/LTV2008/)
+When distrubuting copies of this model, please link back
+to the orignal repository.
