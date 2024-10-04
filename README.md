@@ -1,5 +1,3 @@
 # ltv2008.github.io
-
-this is my github pages repo
-
-moving index soon
+this is my github pages repo for random stuff I host
+uhh go to ltv2008.neocities.org if you want a good website...
