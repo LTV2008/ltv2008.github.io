@@ -193,9 +193,6 @@ Delays:
 // waits 1000 miliseconds
 sleep(1000);
 
-// waits until boolean expression is true
-sleepUntil(boolean expression);
-
 Data structures:
 
 Only arrays will be implemented because I’m too lazy LOL…
