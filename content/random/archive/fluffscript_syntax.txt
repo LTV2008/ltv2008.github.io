@@ -12,17 +12,17 @@ var myVarName = 5;
 myVarName = 10;
 
 // increase/decrease existing variable
-myVarName += 1;
-myVarName -= 1;
+myVarName = myVarName += 1;
+myVarName = myVarName -= 1;
 
-// If a variable isn't going to change its value, it is best to use the keyword 'cst'
+// If a variable isn't going to change its value, it is best to use the keyword 'const'
 /*
  * Constants cannot be redeclared
  * Constants cannot be reassigned
  * Constants must be assigned a value when they are declared
  */
 // Example:
-cst PI = 3.141592653589793;
+const PI = 3.141592653589793;
 PI = 5;      // This will give an error
 
 User Input:
@@ -43,7 +43,7 @@ Math:
 -   Subtraction
 *   Multiplication
 /   Division
-^  Exponentiation
+**  Exponentiation
 %   Modulus (Remainder)
 ()  Parentheses (For order of operations)
 
@@ -70,7 +70,7 @@ x = x * y;      x *= y;
 x = x / y;      x /= y;
 
 // Exponentiation
-var squared = 5 ^ 2;
+var squared = 5 ** 2;
 print(squared);   // prints out 25
 
 // Modulus
@@ -78,37 +78,37 @@ var z = 10 % 4             // 2 * 4 = 8; 10 - 8 = 2
 print(z)                 // prints out: 2
 
 // Absolute value
-var abs = Math.abs(x);
+var abs = abs(x);
 
 // Square root
-var sqrt = Math.sqrt(x);
+var sqrt = sqrt(x);
 
 // Rounding
-// Math.round() can be used to round numbers
+// round() can be used to round numbers
 var pi = 3.14;
-var roundedPi = Math.round(pi);
+var roundedPi = round(pi);
 print(roundedPi);             // prints out: 3
 
 var goldenRatio = 1.618;
-var roundedGoldenRatio = Math.round(goldenRatio);
+var roundedGoldenRatio = round(goldenRatio);
 print(roundedGoldenRatio);        // prints out: 2
 
 // Floor Division
-// Math.floor() can be used to perform floor
+// floor() can be used to perform floor
 // division. With floor division, only the
 // integer portion of the quotient is returned.
 
 // For example, 5/2 is 2.5, but with floor division,
 // the result is 2 and the .5 is discarded.
-var result = Math.floor(5/2);
+var result = floor(5/2);
 print(result);                    // prints out: 2
 
 // Geometry
 // Note input is in radians, not degrees
 
-Math.sin(radians); // Returns value between -1 and 1
-Math.cos(radians); // Returns value between -1 and 1
-Math.tan(radians); // Returns value
+sin(radians); // Returns value between -1 and 1
+cos(radians); // Returns value between -1 and 1
+tan(radians); // Returns value
 
 
 Functions:
