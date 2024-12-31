@@ -1,33 +1,90 @@
-<!DOCTYPE html>
+<! DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-    <link href="https://cdn2.scratch.mit.edu/get_image/user/44538606_60x60.png"
-      rel="icon" type="image/x-icon">
-    <title>LTV2008</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick the Sasquatch</title>
     <style>
-    .textp{
-        font-size:-2;
-    }
-    .body{
-        font-family:Arial, Helvetica, sans-serif;
-        background-color: black;
-        color:white;
-    }
-    .separator{
-      clear: both;
-      text-align: center;
-    }
-</style> </head>
-  <body class="body">
-    <h1>ltv2008.github.io is redirecting you...</h1>
-    <h3>Please wait...</h3>
-    <a href="https://turbowarp.org/?project_url=https://ltv2008.github.io/Slick%20the%20Sasquatch/Slick%20the%20Sasquatch.sb3">Can't wait?</a>
-    <script>
+      iframe {
+         border-width: 0px;
+         border-style: solid;
+      }
+      body {
+        color:#FFFFFF;
+        background:#000;
+        background:#000 linear-gradient(#171717, #000) fixed;
+        font-family:Arial, sans-serif;
+      }
+      h1, p, a, p.help{
+        text-align:left;
+      }
+      a{
+        text-align:left;
+      }
+      .center {
+      }
+      a {
+        color: #848484;
+      }      
+      a:visited {
+        color: #0aa;
+      }
+      a:active {
+        color: red;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="center" style="text-align: center;"> <iframe src="./GAME/Slick_Game.html"
+
+        height="600px" width="800px"> </iframe> </div>
+    <div style="text-align: center;"><br>
+    </div>
+    <div style="text-align: center;">
+      <script type="text/javascript">
+
+    function myFunction() {
+  var x = document.getElementById("help");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 window.addEventListener('load', () => {
-setTimeout(() => {location.href = "https://turbowarp.org/?project_url=https://ltv2008.github.io/Slick%20the%20Sasquatch/Slick%20the%20Sasquatch.sb3";}, 10);
-//setTimeout(() => {rampackt();}, 50);
+setTimeout(() => {myFunction();}, 0.1);
 })
-</script> </body>
+
+    </script>
+<a href="#" onclick="myFunction();" style="text-align: center;">Info (show/hide)</a></div>
+    <div id="help" style="text-align: center; display: block;">
+      <h3> <b>CONTROLS: </b></h3>
+      <p style="text-align: center;"> Move: arrow keys <br>
+        Jump: z key/up arrow <br>
+        Roll: down arrow key (at speed) <br>
+        Crouch: down arrow key (static) <br>
+        Spindash: (while crouching) z key to rev up the spindash, then release
+        down arrow key to perform <br>
+        Restart: R key <br>
+	Volume: - and + keys <br>
+	</p>
+      <h3> <b>CREDITS: </b></h3>
+      <p style="text-align: center;"> Engine - Based on the Genesis Sonic Engine
+        v1.3 by @tomicool <br>
+        (<a href="https://scratch.mit.edu/projects/74711180">https://scratch.mit.edu/projects/74711180</a>)
+        <br>
+        SFX - Made by me (@LTV2008) in GarageBand using samples by @hmnwilson,
+        then edited in the TurboWarp sound editor <br>
+        BGM - In-game music composed by @hmnwilson using <br>
+        <a href="https://scratch.mit.edu/projects/87829696">https://scratch.mit.edu/projects/87829696</a>,
+        and then edited in GarageBand <br>
+        Title Screen Music - Originally composed by @hmnwilson and modified by
+        @LTV2008 using <br>
+        <a href="https://scratch.mit.edu/projects/87829696">https://scratch.mit.edu/projects/87829696</a>,
+        and then edited in GarageBand <br>
+        Custom fonts: <br>
+        Stencil from Cooltext </p>
+    </div>
+  </body>
 </html>
