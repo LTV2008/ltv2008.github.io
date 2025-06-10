@@ -1,0 +1,12 @@
+body {
+  background-image: url('./bg_photo2.png');
+  background-attachment: scroll;
+  background-repeat: repeat;
+  padding-top: 12px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 12px;
+  background-color: #222222;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+}
